@@ -1,10 +1,8 @@
-Certainly! Below is a professional README.md template for your project:
 
 ---
 
 # Project Name
-
-Short Description of the project.
+POC for retrieving similar images from Vector DB.
 
 ## Table of Contents
 
@@ -33,7 +31,7 @@ Short Description of the project.
    ```
 
 2. Open your web browser and go to the URL provided by Streamlit to view the application.
-3. Enter absolute path of the directory 
+3. Enter absolute path of the directory to populate the Vector Database
 ![k](image-1.png)
 After the process is completed
 ![alt text](image-2.png)
