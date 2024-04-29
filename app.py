@@ -13,11 +13,13 @@ st.sidebar.title('Enter Path')
 path_input = st.sidebar.text_input('Enter path:', '')
 
 if st.sidebar.button('Enter'):
+    start = time()
     embeddings_processing._dataset_path = path_input
     st.write(f'Path entered: {path_input}')
     progress_bar = st.progress(0)
     embeddings_processing.process_dataset(progress_bar)
     progress_bar.empty()
+    st.write(f"total time {round((time() - start), 2)} seconds")
 
 
 
